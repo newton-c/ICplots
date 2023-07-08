@@ -1,5 +1,7 @@
 # ICplots
 
+This is a library I made to (almost) automatically format ggplot graphs to follow the style used by InSight Crime. This is based of the [package](https://github.com/bbc/bbplot) the BBC uses for their graphics in R
+
 to install:
 devtools::install_github("newton-c/ICplots", auth_token = "token_string")
 
