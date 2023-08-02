@@ -15,7 +15,7 @@
 theme_ic <- function() {
   font <- "Roboto"
 
-  ggplot2::theme(plot.title = ggplot2::element_text(family = "Roboto Bold",
+  ggplot2::theme(plot.title = ggplot2::element_text(family = "Roboto Black",
                                                     size = 24,
                                                     color = "#3B3B3B"),
                  plot.subtitle = ggplot2::element_text(family = font,
@@ -37,7 +37,8 @@ theme_ic <- function() {
                  axis.title = ggplot2::element_text(family = "Roboto Italic",
                                                      size = 15,
                                                      color = "#3b3b3b",
-                                                     hjust = 0),
+                                                     hjust = 0,
+                                                     vjust = 0),
                  axis.text = ggplot2::element_text(family = font,
                                                    size = 15,
                                                    color = "#b3b3b3"),
