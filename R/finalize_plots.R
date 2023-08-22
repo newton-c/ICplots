@@ -30,7 +30,7 @@ create_footer <- function (source_name, logo_image_path) {
                                                          fontfamily = "Roboto",
                                                          col = "#9D9D9D")),
                           grid::textGrob(#"insightcrime.org",
-                                         "i\u200An\u200As\u200Ai\u200Ag\u200Ah\u200At\u200Ac\u200Ar\u200Ai\u200Am\u200Ae\u200A.\u200Ao\u200Ar\u200Ag",
+                                         "i\u200An\u200As\u200Ai\u200Ag\u200Ah\u200At\u200Ac\u200Ar\u200Ai\u200Am\u200Ae\u200A.\u200Ao\u200Ar\u200Ag     \n",
                                          x = 0.994,
                                          hjust = 1,
                                          gp = grid::gpar(fontsize=14,
