@@ -21,8 +21,9 @@ ggplot(dat, aes(x = x, y = y)) +
   geom_line()
   
 ggplot(dat, aes(x = x, y = y)) +
-  geom_point() +
-  geom_line() +
-  theme_ic()
+  geom_point(color = ic_red) +
+  geom_line(color = ic_green) +
+  theme_ic() +
+  hline
   
   
