@@ -2,4 +2,5 @@
 
 export(finalise_plot)
 export(hline)
+export(ic_logo)
 export(theme_ic)

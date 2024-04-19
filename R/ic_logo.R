@@ -1,3 +1,4 @@
+#' @export
 
 ic_logo <- function(x = 1, y = 1, hjust = 0, vjust = 0, size = 6) {
   geom_text(aes(x = x, y = y,
